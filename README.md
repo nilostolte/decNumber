@@ -1,6 +1,10 @@
 # decNumber
 This is Mike Cowlishaw's decNumber library that implements the General Decimal Arithmetic Specification in ANSI C. This specification defines a decimal arithmetic which meets the requirements of commercial, financial, and human-oriented applications. It also matches the decimal arithmetic in the IEEE 754 Standard for Floating Point Arithmetic.
 
+This is not literally a library in the strict sense, but a list of source files in C that are used fairly independent from one another. This becomes clear when one compiles the examples. The `readme.txt` is the original text explaining how to compile and to use this source code. It's advisable to read it after reading this `Readme.md`.
+
+This repository has not only the original Mike Cowlishaw's source code for multiprecision decimal arithmetic in C, but also scripts that I have written to compile and run the examples. This repository is compact, easy to download and makes the use of the code much easier. The original [website](https://speleotrove.com/decimal/) where this library comes from is too bulky and more difficult to walk through.
+
 ## How to compile and run the examples on Windows
 
 Download the repository and compile the examples using `build.bat` file. If you don't want `-O3` optimization, comment `set flag1=-O3` (that is, insert `REM` 🡒 `REM set flag1=-O3`), and uncomment `REM set flag1=` (that is, remove `REM` 🡒 `set flag1=`).
