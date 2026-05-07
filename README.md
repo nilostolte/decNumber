@@ -5,7 +5,7 @@ This is not literally a library in the strict sense, but a list of source files 
 
 This repository has not only the original Mike Cowlishaw's source code for multiprecision decimal arithmetic in C, but also scripts that I have written to compile and run the examples. This repository is compact, easy to download and makes the use of the code much easier. The original [website](https://speleotrove.com/decimal/) where this library comes from is too bulky and more difficult to walk through.
 
-# What if I want to run these same examples using Java?
+## What if I want to run these same examples using Java?
 My repository [BigDecimalMath](https://github.com/nilostolte/BigDecimalMath) replicates all examples given in this repository but using Java instead.
 
 ## How to compile and run the examples on Windows
