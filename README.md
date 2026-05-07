@@ -21,6 +21,10 @@ To run the examples, after compiling using `build.bat`, just use `run.bat` by ty
 run
 ```
 
+## Compound Interest Examples
+
+Examples 2 and 3 are used in `run.bat` to calculate the compound interest for a capital of $1000 over 2 years at 3% a year interest rate. Notice that once compiled any values can be typed in since the parameters are passed to the program as arguments.
+
 ## How to compile and run the examples on other platforms
 
 Download the repository and open `build.bat` in a text editor. Copy each line starting with `gcc` from `-o` forward. On a console, type `gcc ` and paste the rest of the line that was copied. Repeat this for each example.
